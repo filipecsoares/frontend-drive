@@ -6,6 +6,13 @@ import './styles.css';
 
 export default class Box extends Component {
   render() {
-    return <div />;
+    return (
+        <div id="box-container">
+            <header>
+                <img src={logo} alt="" />
+                <h1>Teste</h1>
+            </header>
+        </div>
+    );
   }
 }
